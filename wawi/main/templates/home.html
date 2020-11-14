@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<!-- hedar secation -->
+<div id="particles-js">
+    <div class="box-hedar">
+        <div class="image-hedar">
+            <img src="{% static 'images/hedar1.png' %}" width="100%">
+        </div>
+        <div class="text-hedar">
+            <h2>منتجات عالية الجودة</h2>
+            <p>نوفر لكم أجود معدات الري الزراعي ذات المقاييس والمواصفات العالمية، و نقوم بشحن البضائع إلى جميع البلدان العربية.</p>
+            <a href="#" class="mt-3 btn btn-light">شاهد منتجاتنا</a>
+        </div>
+
+
+        
+
+    </div>
+</div>
+<!-- end hedar secation -->
+<div class="container">
+    <div class="row">
+
+        <div class="col-lg-4 col-12 text-center"><p>ضمان لأي خلل صناعي</p><i class="fas fa-wrench"></i></div>
+        <div class="col-lg-4 col-12 text-center"><p>ضمان لأي خلل صناعي</p><i class="fas fa-wrench"></i></div>
+        <div class="col-lg-4 col-12 text-center"><p>ضمان لأي خلل صناعي</p><i class="fas fa-wrench"></i></div>
+        
+    </div>
+</div>
+{% endblock  %}
+
+{% block script %}
+<script src="{% static 'js/particles.js' %}"></script>
+<script src="{% static 'js/app.js' %}"></script>
+{% endblock  %}

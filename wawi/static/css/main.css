@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('../fonts/NotoKufiArabic-Bold.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+html, body {
+    direction: rtl;
+    font-family: 'MyWebFont', sans-serif;
+    text-align: right;
+    height: 2000px;
+
+
+
+
+
+
+    color: #000;
+    min-height: 100vh;
+}
+
+
+.navbar-nav {
+    margin-inline-end: 24px;
+    margin-inline-start: auto;
+    text-align: center
+}
+.navbar img {
+    margin-inline-end: auto;
+}
+#whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+}
+
+.box-hedar {
+    position: absolute;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.box-hedar .text-hedar {
+    width: 50%;
+    float: left;
+}
+.text-hedar h2 {
+    font-size: 3em;
+    margin: 10px;
+
+}
+.text-hedar p {
+    font-size: 1.3em;
+    margin: 5px;
+}
+.box-hedar .image-hedar {
+    width: 50%;
+    float: left;
+}
+
+
+
+@media screen and (max-width: 400px) {
+    .box-hedar {
+        position: absolute;
+        width: 80%;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .box-hedar .image-hedar, .box-hedar .text-hedar  {
+        width: 100%;
+        float: left;
+    }
+  }
